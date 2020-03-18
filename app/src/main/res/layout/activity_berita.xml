@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BeritaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="#CD474646"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD DATA"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="62px" />
+
+        <EditText
+            android:id="@+id/editTextJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Judul"
+            android:textColorHint="#A89E9E"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editTextWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Waktu"
+            android:textColorHint="#A89E9E"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editTextPenulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Penulis"
+            android:textColorHint="#A89E9E"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editTextIsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Isi"
+            android:textColorHint="#A89E9E"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:text="Save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNomor" />
+
+    </LinearLayout>
+
+</LinearLayout>
